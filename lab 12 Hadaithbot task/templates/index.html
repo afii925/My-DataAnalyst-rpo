@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HadithBot 🤖</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="chatbox">
+        <h1>HadithBot 🕌</h1>
+        <form method="post">
+            <textarea name="user_input" rows="4" placeholder="Ask about prayer, fasting, charity...">{{ user_input }}</textarea>
+            <br>
+            <button type="submit">Ask</button>
+        </form>
+
+        {% if bot_response %}
+        <div class="response">
+            <p><strong>You:</strong> {{ user_input }}</p>
+            <p><strong>HadithBot:</strong> {{ bot_response }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

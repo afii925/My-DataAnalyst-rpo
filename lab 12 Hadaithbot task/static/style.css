@@ -1,0 +1,48 @@
+ody {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fefaf6;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.chatbox {
+    width: 400px;
+    background-color: #fff7f0;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #795548;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #795548;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+}
+
+.response {
+    margin-top: 20px;
+    background-color: #fff3e0;
+    padding: 15px;
+    border-radius: 8px;
+}
